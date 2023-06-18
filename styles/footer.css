@@ -1,0 +1,149 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  width: 100%;
+  min-height: 300px;
+  max-height: auto;
+  background-color: rgba(0, 0, 0, 0.9);
+  margin-top: 10px;
+  clear: both;
+}
+footer .footer-wrap {
+  width: 80%;
+  margin: 0 auto;
+  padding-left: 9%;
+  color: white;
+}
+footer .widgetFooter {
+  width: 42.5%;
+  height: auto;
+  float: left;
+  padding: 2.5%;
+  text-align: left;
+}
+footer h4.uppercase {
+  text-transform: uppercase;
+}
+footer ul#footerUsefulLink,
+footer ul#footerMediaLinks {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  line-height: 40px;
+  text-transform: capitalize;
+}
+footer ul#footerUsefulLink li,
+footer ul#footerMediaLinks li {
+  cursor: pointer;
+}
+footer ul#footerUsefulLink li:hover .usefulLinksIcons,
+footer ul#footerUsefulLink li:hover a {
+  color: #00CED1;
+}
+footer ul#footerMediaLinks li:hover span.fb,
+footer ul#footerMediaLinks li:hover a.fb {
+  color: #3b5998;
+}
+footer ul#footerMediaLinks li:hover span.twit,
+footer ul#footerMediaLinks li:hover a.twit {
+  color: #1DA1F2;
+}
+footer ul#footerMediaLinks li:hover span.insta,
+footer ul#footerMediaLinks li:hover a.insta {
+  color: #ffc838;
+}
+footer ul#footerMediaLinks li:hover span.git,
+footer ul#footerMediaLinks li:hover a.git {
+  color: #f1502f;
+}
+footer div.footerCopy {
+  clear: both;
+  color: white;
+  text-align: center;
+  padding-bottom: 5px;
+  border-top: 1px solid #ccc;
+}
+@media (max-width: 800px) {
+  footer .footer-wrap {
+    width: 100%;
+    padding: 0;
+  }
+  footer .widgetFooter:not(:nth-of-type(2)) {
+    width: 45%;
+    text-align: center;
+    font-size: 0.9em;
+  }
+  footer .widgetFooter:nth-of-type(2) {
+    width: 100%;
+    padding: 0;
+    text-align: center;
+  }
+  footer div.footerCopy {
+    font-size: 0.8em;
+  }
+}
+@media (max-width: 600px) {
+  footer .widgetFooter:not(:nth-of-type(2)) {
+    text-align: left;
+  }
+}
+@media (max-width: 800px) {
+  footer footer {
+    min-height: auto;
+  }
+  footer .widgetFooter:not(:nth-of-type(2)) {
+    width: 100%;
+    padding: 0;
+    text-align: center;
+  }
+  footer ul#footerUsefulLink,
+  footer ul#footerMediaLinks {
+    display: flex;
+  }
+  footer ul#footerUsefulLink li,
+  footer ul#footerMediaLinks li {
+    float: left;
+    flex: 1;
+    text-align: center;
+    font-size: 1.5em;
+  }
+  footer ul#footerUsefulLink li a,
+  footer ul#footerMediaLinks li a {
+    display: none;
+  }
+  footer ul#footerUsefulLink li:hover,
+  footer ul#footerUsefulLink li:hover .usefulLinksIcons,
+  footer ul#footerUsefulLink li:hover a {
+    color: white;
+    background-color: #00CED1;
+  }
+  footer ul#footerMediaLinks li.media1:hover,
+  footer ul#footerMediaLinks li:hover span.fb,
+  footer ul#footerMediaLinks li:hover a.fb {
+    background-color: #3b5998;
+    color: white;
+  }
+  footer ul#footerMediaLinks li.media2:hover,
+  footer ul#footerMediaLinks li:hover span.twit,
+  footer ul#footerMediaLinks li:hover a.twit {
+    background-color: #1DA1F2;
+    color: white;
+  }
+  footer ul#footerMediaLinks li.media3:hover,
+  footer ul#footerMediaLinks li:hover span.insta,
+  footer ul#footerMediaLinks li:hover a.insta {
+    background-color: #ffc838;
+    color: white;
+  }
+  footer ul#footerMediaLinks li.media4:hover,
+  footer ul#footerMediaLinks li:hover span.git,
+  footer ul#footerMediaLinks li:hover a.git {
+    background-color: #f1502f;
+    color: white;
+  }
+}
+
+/*# sourceMappingURL=footer.css.map */
