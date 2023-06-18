@@ -21,12 +21,15 @@ La estructura de la web se ha diseñado siguiendo los criterios trabajados en cu
 El estilo de la web se ha aplicado siguiendo los criterios trabajados en cuanto a estructura visual, diseño adaptativo y responsive, y reciclado de código.
 
 [header.scss](https://github.com/SagaLucilfer/SagaLucilfer.github.io/blob/main/styles/header.scss)
+
 [header.css](https://github.com/SagaLucilfer/SagaLucilfer.github.io/blob/main/styles/header.css)
 
 [main.scss](https://github.com/SagaLucilfer/SagaLucilfer.github.io/blob/main/styles/main.scss)
+
 [main.css](https://github.com/SagaLucilfer/SagaLucilfer.github.io/blob/main/styles/main.css)
 
 [footer.scss](https://github.com/SagaLucilfer/SagaLucilfer.github.io/blob/main/styles/footer.scss)
+
 [footer.css](https://github.com/SagaLucilfer/SagaLucilfer.github.io/blob/main/styles/footer.css)
 
 ## Subida al Servidor
